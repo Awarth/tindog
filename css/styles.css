@@ -1,0 +1,180 @@
+body{
+    font-family: "montserrat";
+}
+p{
+    color: #8f8f8f;
+}
+
+#title{
+    background-color: #ff4c68;
+    /* overflow: hidden; */
+}
+.homeMain{
+    padding: 3% 15%;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+
+/* Navbar */
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    color: #fff;
+    font-family: "ubuntu";
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0;
+}
+.nav-link{
+    color: #ffffffd1;
+    font-size: 1.5rem;
+}
+/* Home Page */
+.heading1 h1{
+    color: #fff;
+    font-weight: 900;
+    font-size: 4.5rem;
+}
+.heading1 button{
+    margin: 40px 18px;
+}
+/* Title Image */
+
+.titleImg img{
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 22%;
+}
+
+/* Features Section */
+
+#features{
+    padding: 7% 10% ;
+    text-align: center;
+    background-color: #fff;
+    position: relative;
+}
+.featuresSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.featuresSection h3{
+    font-weight: 900;
+    font-size: 1.5rem; 
+}
+.icon{
+    color: #ef8172;
+    margin: 0 0 20px 0;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+.featuresSection p{
+    column-count: rgba(34, 33, 33, 0.47);
+    font-weight: 500;
+}
+
+/* Testimonials */
+
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+h2{
+    font-weight: 900;
+    line-height: 2;
+    font-size: 3rem;
+}
+
+.dogImg{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    text-align: center;
+    background-color: #ef8172;
+    padding: 0 0 60px;
+}
+.pressLogo{
+    width: 15%;
+    padding: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.rowPricing{
+    width: 100%;
+}
+.signInButton{
+    width: 100%;
+}
+
+.card{
+    margin: 10% 0;
+    padding: 0 3%;
+}
+
+.card-group{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-header h3{
+    font-weight: 900;
+    margin: 0;
+}
+
+.pricingH2{
+    font-weight: 900;
+}
+
+@media (max-width: 1200px){
+    #title{
+        text-align: center;
+    }
+    .titleImg{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* cta */
+
+#cta{
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    text-align: center;
+    color: #fff;
+}
+#cta h3{
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+#cta button{
+    margin: 40px 20px;
+}
+
+/* Footer */
+#footer{
+    padding: 3% 15%;
+    text-align: center;
+}
+#footer span{
+    margin: 10px;
+}
+#footer p{
+    margin: 10px 0 0;
+}
